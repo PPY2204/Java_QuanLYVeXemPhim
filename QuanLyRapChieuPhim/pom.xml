@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>QuanLyRapChieuPhim</groupId>
+  <artifactId>QuanLyRapChieuPhim</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <dependency>
+	    <groupId>com.microsoft.sqlserver</groupId>
+	    <artifactId>mssql-jdbc</artifactId>
+	    <version>9.4.1.jre11</version> <!-- Replace with the correct version -->
+	</dependency>
+    <dependency>
+        <groupId>org.kordamp.ikonli</groupId>
+        <artifactId>ikonli-swing</artifactId>
+        <version>12.3.1</version>
+    </dependency>
+    <dependency>
+    <groupId>org.kordamp.ikonli</groupId>
+    <artifactId>ikonli-fontawesome5-pack</artifactId>
+    <version>12.3.1</version>
+	</dependency>
+	<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.3</version>
+	</dependency>
+</dependencies>
+</project>
